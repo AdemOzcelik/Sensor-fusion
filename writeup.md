@@ -131,7 +131,7 @@ configs_det = det.load_configs(model_name="fpn_resnet")
 
 # Section 4 : Performance Evaluation for Object Detection
 
-In this section, we found matches between place-truth labels and detections so that we can determine whether an object was (a) missed (false negative), (b) successfully detected (true positive), or (c) falsely reported (false positive).
+In this section, we found matches between place-truth labels and detections so that we can determine whether an object was missed (false negative), successfully detected (true positive), or falsely reported (false positive).
 
 The performance metrics are as follows.
 
