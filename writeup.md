@@ -69,6 +69,7 @@ exec_visualization = ['show_pcl']
 <img src="img/ID_S1_EX2_6.png"/> Point Cloud Sample
 </p>
 Stable features include largely the rear bumper and tail lights. When the vehicles are viewed from the side, mirrors and wheels can also be seen.
+
 ## Section 2 : Create Birds-Eye View from Lidar PCL
 In order for the convolution operations to be applied efficiently, the point cloud representations should have a structure suitable for the needs of CNN.
 
@@ -101,6 +102,7 @@ In this part, the "height" channel of the BEV map is populated with data from th
 </p>
 
 ## Section 3 : Model-based Object Detection in BEV Image
+
 In this section, the following steps were performed to demonstrate how a new model can be integrated into an existing framework.
 
 - Clone the repo [Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds](https://github.com/maudzung/SFA3D)
