@@ -1,5 +1,5 @@
 
-#Mid-Term Project: 3D Object Detection
+# Mid-Term Project: 3D Object Detection
 
 This intermediate project of the Sensor fusion section of the Udacity Self Driving Car Engineer Nanodegree program consists of the following steps.
 
