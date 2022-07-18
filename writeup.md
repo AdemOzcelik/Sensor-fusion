@@ -1,5 +1,5 @@
 
-#Mid-Term Project: 3D Object Detection
+# Mid-Term Project: 3D Object Detection
 
 This intermediate project of the Sensor fusion section of the Udacity Self Driving Car Engineer Nanodegree program consists of the following steps.
 
@@ -51,6 +51,7 @@ exec_tracking = []
 exec_visualization = ['show_pcl']
 
 ```
+
 | | |
 |:---------------:|:---------------:|
 |<img src="img/5.png" width="400" height ="300"> | <img src="img/1.png" width="400" height="300"> |
@@ -60,6 +61,8 @@ exec_visualization = ['show_pcl']
 |<img src="img/5.png" width="400" height ="300"> | <img src="img/4.png" width="400" height="300"> |
 
 10 examples of vehicles with different visibility in point cloud are given above. The images on the left side show a far view of the point cloud from different degrees. The images on the right side show a close view of the point cloud from different degrees.  Visibile features changes when you look at the vehicles from close and far. The lidar point cloud shows the chassis of cars as the most identifiable feature. Stable features are largely trailer rear for trailer attached vehicles. When the vehicles are viewed from the side, mirrors and wheels can also be seen.
+
+
 ## Section 2 : Create Birds-Eye View from Lidar PCL
 In order for the convolution operations to be applied efficiently, the point cloud representations should have a structure suitable for the needs of CNN.
 
@@ -92,6 +95,7 @@ In this part, the "height" channel of the BEV map is populated with data from th
 </p>
 
 ## Section 3 : Model-based Object Detection in BEV Image
+
 In this section, the following steps were performed to demonstrate how a new model can be integrated into an existing framework.
 
 - Clone the repo [Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds](https://github.com/maudzung/SFA3D)
@@ -120,7 +124,7 @@ configs_det = det.load_configs(model_name="fpn_resnet")
 
 # Section 4 : Performance Evaluation for Object Detection
 
-In this section, we found matches between place-truth labels and detections so that we can determine whether an object was (a) missed (false negative), (b) successfully detected (true positive), or (c) falsely reported (false positive).
+In this section, we found matches between place-truth labels and detections so that we can determine whether an object was missed (false negative), successfully detected (true positive), or falsely reported (false positive).
 
 The performance metrics are as follows.
 
