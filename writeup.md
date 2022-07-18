@@ -144,14 +144,14 @@ configs_det = det.load_configs(model_name="darknet")
 configs_det.use_labels_as_objects = False
 ```
 <p align="center">
-<img src="img/Figure_1.png"/> 
+<img src="img/figure_1.png"/> 
 </p>
 <p align="center">Graphing performance metrics</p>
 
 When the configs_det.use_labels_as_objects parameter is set to True, the results are as follows.
 
 <p align="center">
-<img src="img/Figure_2.png"/>
+<img src="img/figure_2.png"/>
 </p>
 <p align="center">With the labels</p>
 
