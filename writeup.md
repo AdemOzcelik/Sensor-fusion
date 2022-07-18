@@ -49,26 +49,17 @@ exec_data = []
 exec_detection = []
 exec_tracking = []
 exec_visualization = ['show_pcl']
+
 ```
-<p align="center">
-<img src="img/ID_S1_EX2_1.png"/> Point Cloud Sample
-</p>
-<p align="center">
-<img src="img/ID_S1_EX2_2.png"/> Point Cloud Sample
-</p>
-<p align="center">
-<img src="img/ID_S1_EX2_3.png"/> Point Cloud Sample
-</p>
-<p align="center">
-<img src="img/ID_S1_EX2_4.png"/> Point Cloud Sample
-</p>
-<p align="center">
-<img src="img/ID_S1_EX2_5.png"/> Point Cloud Sample
-</p>
-<p align="center">
-<img src="img/ID_S1_EX2_6.png"/> Point Cloud Sample
-</p>
-Stable features include largely the rear bumper and tail lights. When the vehicles are viewed from the side, mirrors and wheels can also be seen.
+| | |
+|:---------------:|:---------------:|
+|<img src="img/5.png" width="400" height ="300"> | <img src="img/1.png" width="400" height="300"> |
+|<img src="img/10.png" width="400" height ="300"> | <img src="img/2.png" width="400" height="300"> |
+|<img src="img/3.png" width="400" height ="300"> | <img src="img/4.png" width="400" height="300"> |
+|<img src="img/7.png" width="400" height ="300"> | <img src="img/6.png" width="400" height="300"> |
+|<img src="img/5.png" width="400" height ="300"> | <img src="img/4.png" width="400" height="300"> |
+
+10 examples of vehicles with different visibility in point cloud are given above. The images on the left side show a far view of the point cloud from different degrees. The images on the right side show a close view of the point cloud from different degrees.  Visibile features changes when you look at the vehicles from close and far. The lidar point cloud shows the chassis of cars as the most identifiable feature. Stable features are largely trailer rear for trailer attached vehicles. When the vehicles are viewed from the side, mirrors and wheels can also be seen.
 ## Section 2 : Create Birds-Eye View from Lidar PCL
 In order for the convolution operations to be applied efficiently, the point cloud representations should have a structure suitable for the needs of CNN.
 
