@@ -149,7 +149,7 @@ As seen in this study, sensor fusion provides an advantage for stable tracking. 
 ### Challenges for sensor fusion system face in real-life scenarios
 The camera is a passive sensor while the lidar is the active sensor. In other words, the lidar has its own light source, while the camera fully utilizes its external lighting. In an unlit environment, the camera will be completely blind and the lidar will be used alone. In this case, sensor fusion is not possible.
 
-In addition, the sensors have a distance and field of view capability. It will not be able to detect objects in areas other than this.
+In addition, the sensors have a distance and field of view capability. It will not be able to detect objects in areas other than this. Therefore, it may be necessary to increase the number and variety of sensors. For this purpose, sensors such as radar and ultrasonic sensors can be used.
 ### Ways to improve tracking results
 
 - Parameters such as measurement noise standard deviation can be fine-tuned to achieve a lower RMSE. 
