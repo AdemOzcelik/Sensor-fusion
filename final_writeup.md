@@ -19,7 +19,7 @@ python loop_over_dataset.py
 
 ## Section 1 : Tracking
 
-Changes were made to the filter.py file to implement an EKF to monitor a single real-world target with lidar measurement input over time.
+Changes were made to the filter.py file to implement an EKF to track a single real-world target with lidar measurement input over time.
 
 Perform the following steps in the loop_over_dataset.py file.
 
